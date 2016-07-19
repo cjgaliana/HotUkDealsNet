@@ -7,6 +7,10 @@ namespace HotUkDealsNetClient.Tests
     [TestClass]
     public class UnitTest1
     {
+        [TestInitialize]
+        public void InitializeTest()
+        { }
+
         [TestMethod]
         public async Task TestMethod1()
         {

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HotUkDealsNet</id>
+        <version>0.0.2</version>
+        <title>HotUkDealsClient</title>
+        <authors>cjgaliana</authors>
+        <owners>cjgaliana</owners>
+        <licenseUrl>https://github.com/cjgaliana/HotUkDealsNet</licenseUrl>
+        <projectUrl>https://github.com/cjgaliana/HotUkDealsNet</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>HotUkDeals .Net Client</description>
+        <tags>hotukdeals</tags>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\HotUkDealsNet\HotUkDealsNetClient\bin\Release\HotUkDealsNetClient.dll" target="lib\MonoAndroid\HotUkDealsNetClient.dll" />
+        <file src="..\src\HotUkDealsNet\HotUkDealsNetClient\bin\Release\HotUkDealsNetClient.dll" target="lib\MonoTouch\HotUkDealsNetClient.dll" />
+        <file src="..\src\HotUkDealsNet\HotUkDealsNetClient\bin\Release\HotUkDealsNetClient.dll" target="lib\net45\HotUkDealsNetClient.dll" />
+        <file src="..\src\HotUkDealsNet\HotUkDealsNetClient\bin\Release\HotUkDealsNetClient.dll" target="lib\netcore451\HotUkDealsNetClient.dll" />
+        <file src="..\src\HotUkDealsNet\HotUkDealsNetClient\bin\Release\HotUkDealsNetClient.dll" target="lib\uap10.0\HotUkDealsNetClient.dll" />
+        <file src="..\src\HotUkDealsNet\HotUkDealsNetClient\bin\Release\HotUkDealsNetClient.dll" target="lib\wpa81\HotUkDealsNetClient.dll" />
+    </files>
+</package>
